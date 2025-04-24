@@ -1,0 +1,89 @@
+
+::ng-deep .p-confirm-dialog {
+  width: 500px !important;
+  max-width: 90vw;
+}
+
+::ng-deep .p-confirm-dialog-message {
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+::ng-deep .p-dialog-content {
+  padding: 20px !important;
+}
+
+::ng-deep .p-dialog-footer {
+  display: flex;
+  justify-content: space-around !important;
+  padding: 15px;
+}
+
+.custom-accept-btn {
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+}
+
+.custom-reject-btn {
+  border: none !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+}
+
+// 
+::ng-deep .p-datepicker {
+  font-size: 14px;
+  padding: 0.5rem;
+  width: 100%; /* Force it to stretch within dialog */
+  max-width: 350px; /* Optional max width for large screens */
+}
+
+::ng-deep .p-datepicker table {
+  width: 100%;
+}
+
+::ng-deep .p-datepicker td {
+  padding: 0.4rem;
+  text-align: center;
+}
+
+::ng-deep .p-datepicker .p-datepicker-header,
+::ng-deep .p-datepicker .p-datepicker-title {
+  font-size: 14px;
+  padding: 0.5rem;
+}
+
+::ng-deep .p-calendar {
+  width: 100%;
+}
+
+
+::ng-deep .p-datepicker {
+  font-size: 12px;
+  padding: 0.2rem;
+  max-width: 200px; 
+  
+}
+
+::ng-deep .p-datepicker table {
+  width: 100%;
+}
+
+::ng-deep .p-datepicker table td {
+  padding: 0.1rem !important;
+  font-size: 12px;
+  text-align: center;
+}
+
+::ng-deep .p-datepicker .p-datepicker-header {
+  padding: 0.25rem;
+}
+
+::ng-deep .p-datepicker .p-datepicker-title {
+  font-size: 13px;
+}
+

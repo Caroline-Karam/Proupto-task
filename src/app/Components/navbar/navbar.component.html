@@ -1,0 +1,32 @@
+<nav class="fixed w-full bg-white top-0 z-50 border-b-2"
+   >
+    <div class="relative w-full h-[5vh] flex items-center px-4 md:px-8">
+        <h1
+            class="font-[Montserrat] text-[#1E5A7C] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px]  font-bold absolute left-1/2 transform -translate-x-1/2"
+            routerLinkActive="active-link" routerLink="/home">
+            Proupto Task
+        </h1>
+        <div
+            class="absolute right-4 flex items-center space-x-3 mt-2">
+            <hr
+                class="hidden md:block mb-3 mx-3 border-top-1 border-none surface-border" />
+            <a pRipple
+                class="m-3 flex items-center cursor-pointer p-3 gap-2 border-round text-700 hover:surface-100 duration-150 transition-colors">
+                <p-avatar
+                    image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+                    shape="circle" />
+                <span class="font-bold hidden sm:block">Proupto Task</span>
+            </a>
+        </div>
+        
+        <!-- Sidebar + Search Input -->
+        <div class="absolute left-10 flex items-center space-x-3">
+            <button (click)="onButtonClick()" >
+                <i
+                    class="fa-solid fa-bars-staggered text-[#1E5A7C] text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] font-bold mr-8"></i>
+            </button>
+            <input type="text" placeholder="Search..."
+                class="hidden sm:block px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1E5A7C] focus:border-[#1E5A7C]" />
+        </div>
+    </div>
+</nav>

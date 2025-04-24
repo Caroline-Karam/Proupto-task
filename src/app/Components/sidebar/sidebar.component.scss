@@ -1,0 +1,14 @@
+.sidebar-open {
+  width: 270px;
+  transition: width 0.3s ease;
+}
+
+.sidebar-closed {
+  width: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar-closed a,
+.sidebar-closed button {
+  display: none;
+}
